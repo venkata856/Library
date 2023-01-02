@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="index.js" defer></script>
+    <title>Library</title>
+</head>
+<body class="body">
+    <header>Library App</header>
+    <button class="addBook">Add Book</button>
+    <form class="form  inactive" id="bookform">
+        <p class="newbook">Add new book</p>
+        <label for="name">Title:
+            <div class="input"><input type="text" name="name" id="name" placeholder="Title" maxlength="100" required autocomplete="off"></div>
+        </label>
+        <label for="author">Author:
+            <div class="input"><input type="text" name="author" id="author" placeholder="Author" maxlength="40" required autocomplete="off"></div>
+        </label>
+        <label for="pages">No of Pages:
+            <div class="input"><input type="number" name="pages" min="0" max="999999" id="pages" placeholder="Pages" required autocomplete="off"></div>
+        </label>
+        <label for="read" class="read">Have you read it?
+            <div class="checkbox-input"><input type="checkbox" name="read" id="read-box" required></div>
+        </label>
+
+        <div class="buttons">
+
+            <button type="cancel" class="cancel">
+                Cancel
+            </button>
+        <button type="submit" class="submit">
+            Submit
+        </button>
+
+        </div>
+        
+    </form>
+
+    <section class="library">
+        <!-- <div class="bookno bookno1">
+            <p class="hidden"><p>
+            <div class="libbookname"><p>bookName</p></div>
+            <div class="libbookauthor"><p>author</p></div>
+            <div class="libbookpages"><p>pages</p></div>
+            <div class="libbookread"><button class="readtype notread">Read</button></div>
+            <div class="removebutton"><button class="remove">Remove</button></div>
+        </div>
+        <div class="bookno bookno1">
+            <div class="libbookname"><p>bookNamejkkjkjghh</p></div>
+            <div class="libbookauthor"><p>author</p></div>
+            <div class="libbookpages"><p>pages</p></div>
+            <div class="libbookread"><button class="readtype notread">Read</button></div>
+            <div class="removebutton"><button class="remove">Remove</button></div>
+        </div> -->
+        
+    </section>
+
+    
+</body>
+</html>
