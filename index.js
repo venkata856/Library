@@ -18,7 +18,6 @@ class Book{
         this.author=author;
         this.numberOfPages=numberOfPages;
         this.read=Boolean(read);
-        return this;
     }
 }
 
