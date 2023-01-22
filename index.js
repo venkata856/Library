@@ -9,13 +9,17 @@ const readButtons1=document.querySelectorAll(".readtype");
 const notReadButtons1=document.querySelectorAll(".notread");
 
 
-function Book(bookId,bookName,author,numberOfPages,read) {
-    this.bookId=bookId;
-  this.bookName=bookName;
-  this.author=author;
-  this.numberOfPages=numberOfPages;
-  this.read=Boolean(read);
-  return this;
+class Book{
+
+
+    constructor(bookId,bookName,author,numberOfPages,read){
+        this.bookId=bookId;
+        this.bookName=bookName;
+        this.author=author;
+        this.numberOfPages=numberOfPages;
+        this.read=Boolean(read);
+        return this;
+    }
 }
 
 function addBookToLibrary(myLibrary,book) {
